@@ -1,7 +1,4 @@
 
-
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,9 +7,9 @@ export default function RootLayout({
   return (
     <div>
         <main>
-            LEFT SIDEBAR  
+            <p className="text-white-1">LEFT SIDEBAR </p> 
             {children} 
-            RIGHT SIDEBAR  
+            <p className="text-white-1">RIGHT SIDEBAR</p>
         </main>
     </div>
     

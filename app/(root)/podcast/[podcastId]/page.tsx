@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const PodcastDetails = ({ params} : { params : { podcastId: string}}) => {
   return (
-    <div>page</div>
+    <p className="text-white-1">PodcastDetails for {params.podcastId}</p>
   )
 }
 
-export default page
+export default PodcastDetails
